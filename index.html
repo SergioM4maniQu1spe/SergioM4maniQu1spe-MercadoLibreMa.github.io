@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="img\favicon.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c2dc3560c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mercado liebre</title>
+</head>
+
+<body>
+    <header>
+        <nav class="sub-header">
+
+            <div class="cont-sup">
+
+                <img src="img/mercado-liebre.png" alt="logo">
+
+                <div class="Barra">
+                    <input type="search" class="search" placeholder="Buscar productos,marcas y más..." />
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div>
+                    <a href="#"><i class="fa-solid fa-hand-holding-dollar"> <span class="icon2">Todas las opiniones en
+                                un solo lugar</i></span></a>
+                </div>
+
+            </div>
+
+            <div class="cont-infer">
+                <div class="cont-infer-izquierda">
+                    <a href="#">
+                        <p class="icon2">Todos los productos </p>
+                    </a>
+                </div>
+
+                <div class="cont-infer-der">
+                    <div class="text-derecha">
+                        <a href="registro.html"><span class="icon2">creá tu cuenta <i
+                                    class="fa-regular fa-address-card"></i></span></a>
+                    </div>
+
+                    <button class="icon2" data-bs-toggle="modal" data-bs-target="#dialogo1">Registrar <i
+                            class="fa-solid fa-right-to-bracket"></i></i></button>
+
+                    <div class="modal fade" id="dialogo1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="formulario">
+
+
+                                    <div class="form-top">
+                                        <img class="img1" src="img/mercado-liebre.png" alt="Cafetera Moulinex">
+                                        <br><br>
+                                        <h2>
+                                            Registro
+                                        </h2>
+                                    </div>
+
+
+                                    <div class="form-bottom">
+                                        <style>
+                                            .formulario {
+                                                display: flex;
+                                                /* position: absolute; */
+                                                /* display: block; */
+                                                padding: 20px 25px 20px 25px;
+                                                border-radius: 5%;
+                                                height: 25%;
+                                                width: 350px;
+                                                padding: 20px auto;
+                                                /* border-radius: 10px; */
+                                                margin: 10px auto;
+                                                /* align-items: flex-end; */
+                                                /* right: 35%; */
+                                                flex-direction: column;
+                                            }
+
+                                            .form-bottom {
+                                                height: 50%;
+                                                padding: 5px 35px 5px 10px;
+                                                padding: 4px;
+                                            }
+
+                                            .form-top {
+                                                text-align: center;
+                                                height: 35%;
+                                                padding: 5px 35px 5px 10px;
+                                                padding: 0px;
+                                                font-family: 'Rubik', sans-serif;
+                                            }
+
+                                            form label {
+                                                width: 80px;
+                                                font-weight: bold;
+                                                /* display: inline-block; */
+                                                justify-content: center;
+                                                padding-top: 16px;
+                                                font-family: 'Rubik', sans-serif;
+                                            }
+
+                                            form input {
+                                                width: 180px;
+                                                padding: 10px 10px;
+                                                border-radius: 5px;
+                                                border: 1px solid #c1bdbd;
+                                                background-color: #f6f6f6;
+                                                margin: 8px 0;
+                                                display: inline-block;
+                                            }
+
+                                            form [type="submit"] {
+                                                width: 90px;
+                                                padding: 10px 10px 10px 10px;
+                                                border: none;
+                                                color: #f6f6f6;
+                                                border-radius: 5px;
+                                                background-color: #7e1ebe;
+                                                margin: 10px 10px;
+                                                display: inline-block;
+                                            }
+
+                                            .img1 {
+                                                height: 3rem;
+                                            }
+
+                                            .s {
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: space-around;
+                                            }
+
+                                            .s2 {
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: flex-start;
+                                            }
+                                        </style>
+                                        <form>
+                                            <div class="s">
+                                                <label for="nombre">Nombre: </label>
+                                                <input type="text" name="nombre" id="nombre">
+                                            </div>
+                                            <div class="s">
+                                                <label for="email">Email: </label>
+                                                <input type="email" name="email" id="email">
+                                            </div>
+                                            <div class="s">
+                                                <label for="password">contraseña:</label>
+                                                <input type="password" name="password" id="password">
+                                            </div>
+
+                                            <div class="s2">
+                                                <input type="submit" value="Registrar">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="banner" src="img\banner1.jpg" alt="Banner">
+            </div>
+            <div class="carousel-item">
+                <img class="banner" src="img\banner2.jpg" alt="Banner">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <div class="titulo1">
+        <h1>Disfruta nuestras ofertas!</h1>
+    </div>
+
+
+    <div class="contenedor">
+
+        <div class="contenedorimg">
+            <img class="articulos" src="img\productos\img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+            <div class="boton">
+                <span class="icon3">Cafetera Moulinex <input class="comprar" type="submit" value="Comprar"></span>
+            </div>
+        </div>
+
+        <div class="contenedorimg">
+            <img class="articulos" src="img\productos\img-macbook-pro-2019.jpg" alt="Cafetera Moulinex">
+            <div class="boton">
+                <span class="icon3">macbook pro 2019 <input class="comprar" type="submit" value="Comprar"> </span>
+            </div>
+        </div>
+        <div class="contenedorimg">
+            <img class="articulos" src="img\productos\img-tv-samsung-smart.jpg" alt="Cafetera Moulinex">
+            <div class="boton">
+                <span class="icon3">Tv samsung-smart <input class="comprar" type="submit" value="Comprar"></span>
+            </div>
+        </div>
+        <div class="contenedorimg">
+            <img class="articulos" src="img\productos\img-samsung-galaxy-s10.jpg" alt="Cafetera Moulinex">
+            <div class="boton">
+                <span class="icon3">Samsung galaxy s10 <input class="comprar" type="submit" value="Comprar"> </span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="titulo2">
+        <h1>Productos Destacados!</h1>
+    </div>
+    <div class="contenedor2">
+
+        <div class="contenedor2img">
+
+            <img class="articulos2" src="img\productos\img-samsung-galaxy-s10.jpg" alt="Cafetera Moulinex">
+            <div class="centrado"><b>Smarth phone Samsung</b></div>
+
+        </div>
+
+
+        <div class="contenedor2img">
+
+            <img class="articulos2" src="img\productos\img-tv-samsung-smart.jpg" alt="Cafetera Moulinex">
+            <div class="centrado"><b>Tv Smart 40" Samsung</b></div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <footer>
+        <div class="footer-left">
+          <p>Seguinos</p>
+          <ul class="social">
+            <li class="social-item">
+              <i class="fab fa-facebook-f"></i> Facebook
+            </li>
+            <li class="social-item">
+              <i class="fab fa-instagram"></i> Instagram
+            </li>
+            <li class="social-item">
+              <i class="fab fa-linkedin-in"></i> Linkedin
+            </li>
+            <li class="social-item"><i class="fab fa-youtube"></i> Youtube</li>
+          </ul>
+        </div>
+        <div class="footer-center">
+          <p>Otros servicios</p>
+          <ul>
+            <li>MercadoLiebre pago</li>
+            <li>MercadoLiebre Shops</li>
+            <li>Liebre Envios</li>
+          </ul>
+        </div>
+        <div class="footer-right"><p>Trabaja con nosotros</p>
+        <form action="">
+            <input type="email" placeholder="Ingresa tu email"> <button class="btn">Enviar</button>
+        </form>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
